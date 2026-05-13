@@ -5,7 +5,7 @@
 
 // ===== CONFIGURATION =====
 // REPLACE: Put your WhatsApp number here (with country code, no + or spaces)
-const WHATSAPP_NUMBER = '91XXXXXXXXXX';
+const WHATSAPP_NUMBER = '919764185445';
 
 // ===== PRODUCT ENQUIRY SYSTEM =====
 const selectedProducts = new Set();

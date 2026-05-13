@@ -343,8 +343,28 @@ button { cursor: pointer; border: none; font-family: var(--font); }
   border-radius: 50px;
   font-size: 0.82rem;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   animation: fadeInUp 0.8s ease;
+}
+
+.hero-proprietor {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.85rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 0.8s ease 0.1s both;
+}
+
+.hero-proprietor i {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.hero-proprietor strong {
+  color: rgba(255,255,255,0.85);
+  font-weight: 700;
 }
 
 .hero-title {
@@ -947,6 +967,21 @@ button { cursor: pointer; border: none; font-family: var(--font); }
 
 .map-placeholder i { font-size: 2rem; opacity: 0.4; }
 .map-placeholder p { font-size: 0.82rem; text-align: center; }
+
+.map-image {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--gray-100);
+}
+
+.map-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius);
+}
 
 .contact-form-wrap {
   background: var(--white);
